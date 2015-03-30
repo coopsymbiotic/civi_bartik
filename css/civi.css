@@ -1,0 +1,40 @@
+/* hide survey and petition navigation - not used */
+body.page-civicrm-campaign .ui-tabs-nav {
+  display: none;  
+}
+
+/* change contrast for tab */
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+  background: none;
+  background-color: #0F80CC;
+}
+.ui-state-active a, .ui-widget-content .ui-state-active a, .ui-widget-header .ui-state-active a {
+  color: white;
+}
+.crm-container .crm-tab-button.ui-state-active a em {
+  color: lightgray;
+}
+#mainTabContainer li.disabled a.ui-tabs-anchor, #mainTabContainer li.crm-count-0 a.ui-tabs-anchor, #mainTabContainer li.crm-count-0 a.ui-tabs-anchor em {
+  color: #bbb !important;
+}
+
+/* alignment problems */
+
+.crm-container .form-layout-compressed td, .crm-container .form-layout-compressed th {
+  padding: 5px 5px 0 0;
+}
+
+/* region lookup */
+.crm-container .ui-autocomplete-input.crm_postal_code {
+  background: url("../images/select2.png") no-repeat scroll right -23px white !important;
+}
+
+.crm-container .ui-autocomplete-input.crm_postal_code.ui-autocomplete-loading { 
+  background: url("../images/loading.gif") no-repeat scroll right center white !important;
+}
+
+/* bug with disabled row */
+table td, table th {
+  color: inherit;
+}
+
