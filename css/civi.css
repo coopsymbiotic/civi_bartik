@@ -38,3 +38,9 @@ table td, table th {
   color: inherit;
 }
 
+/* CiviMail send buttons (bottom of the page) */
+.crmMailing .preview-popup,
+.crmMailing .preview-contact,
+.crmMailing .preview-group {
+  height: 5.5em;
+}
