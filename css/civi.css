@@ -44,3 +44,15 @@ table td, table th {
 .crmMailing .preview-group {
   height: 5.5em;
 }
+
+/* [ML] Language switcher */
+#block-locale-language li.active {
+  border: 1px solid #ccc;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+/* [ML] redmine:18684 font trop petite */
+.crm-container div.crm-clear {
+  font-size: inherit;
+}
